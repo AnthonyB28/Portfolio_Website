@@ -1,0 +1,173 @@
+.clearfix{zoom:1;}.clearfix:after{display:block;visibility:hidden;height:0;clear:both;content:".";}
+.center-block{display:block;margin:0 auto;}
+body{min-width:960px;}
+a,a:active,a:visited{color:#565CEE;}
+h1,h2,h3,h4,h5,h6{color:#FFFFFF; font-family:"SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;}
+p,ul{color: #FFFFFF; font:16px/1.5 "Regular",Georgia,"Times New Roman",Times,serif;}
+a#back-to-top{padding:20px 10px;width:50px;position:fixed;right:9px;bottom:9px;font:11px "Italic",Georgia,"Times New Roman",Times,serif;text-align:center;color:#333333;text-decoration:none;background-color:rgba(255, 255, 255, 0.4);border:1px solid #ECECEC;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.3);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.3);box-shadow:0 1px 0 rgba(0, 0, 0, 0.3);cursor:pointer;-webkit-transition:background-color 0.3s linear;-moz-transition:background-color 0.3s linear;transition:background-color 0.3s linear;}
+a#back-to-top:hover{background-color:#ffffff;}
+header#mast{margin:0 0 0 -2000px;width:100%;position:fixed;top:0px;left:50%;z-index:100;}
+header#mast.tall{height:100px;}
+header#mast.short{height:100px;}
+
+ 
+header#mast h1{margin:0 62px 0 10px;width:600px;height:208px;}
+header#mast h1 a{width:168px;height:150px;display:block;text-indent:-9999px;}
+header#mast.short h1{margin:0px auto;width:200%;height:10px;}
+header#mast.short h1 a{width:250%;height:170px;background:url(images/header.png);}
+
+
+#nav-logo{margin:5px 0 0 1520px;height:24px;width: 100%;}
+#primary-nav{margin-top:30px;margin-right:-13px;height:20px;width:300%;float:left;background:url(images/) no-repeat; }
+#primary-nav ul{margin:25px 0 0 1680px;}
+#primary-nav li{margin:0 7px;}
+#primary-nav a{padding:10px;display:block;font:23px/1 "SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-decoration:none;}
+#primary-nav a.about{color:#05d205;text-shadow:rgba(0,0,0, 0.3) 0 1px 0;}
+#primary-nav a.portfolio{color:#df0a0a;text-shadow:rgba(0,0,0, 0.3) 0 1px 0;}
+#primary-nav a.resume{color:#1E8FF8;text-shadow:rgba(0, 0, 0, 0.3) 0 1px 0;}
+#primary-nav a.contact{color:#c105c1;text-shadow:rgba(0,0,0, 0.3) 0 1px 0;}
+#primary-nav a:hover{padding:10px;color:#063959;display:block;font:23px/1 "SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-decoration:none;}
+header#mast p.about{margin:36px 0 0 0;width:205px;height:90px;float:right;background:url(/images/bg_primary-nav.png) top right no-repeat;}
+header#mast p.about a{margin:24px 20px 0 12px;padding:10px;display:block;font:20px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;text-decoration:none;text-shadow:#ffffff 0 1px 0;}
+.wrapper{background-attachment:fixed;}
+.container{padding-top:198px;padding-bottom:400px;}
+.content h2{margin:0 60px 18px 20px;float:left;font-size:60px;line-height:.95;word-spacing:10px;color:#ffffff;text-shadow:rgba(0, 0, 0, 0.3) 0 1px 1px;}
+.content p.blurb{padding-top:10px;width:200px;float:left;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;}
+.content a{-webkit-transition:color 0.3s linear;}
+#aboutme{background-image:url(images/bg.png);}
+#aboutme .container{padding-top:350px;padding-bottom:350px;background:url(images/about.png) 30px 300px no-repeat;}
+#aboutme .content h2{margin-right:0px;float:none;}
+#aboutme .content p.blurb{margin:0px;padding:4px;width:auto;float:none;}
+#aboutme .content a.note{color:#ffffff;font:55px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;text-decoration:none;text-shadow:rgba(255, 255, 255, 0.6) 0 1px 0;}
+#resume{background-image:url(images/bg.png);}
+#resume .container{background:url(images/resume.png) 0px 130px no-repeat;}
+#resume #packages{margin-top:137px;margin-left:10px;zoom:1;}#pricing #packages:after{display:block;visibility:hidden;height:0;clear:both;content:".";}
+#resume .package{padding-top:15px;width:450px;height:237px;float:left;text-align:center;background:url(/images/bg_pricing-package.png) repeat-x;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+#resume .package.standard{margin-right:20px;}
+#resume .package h3{font-size:44px;color:#666666;text-transform:capitalize;}
+#resume .package p{margin:18px auto 0;width:340px;height:108px;text-indent:-9999px;background-repeat:no-repeat;}
+#resume .package.standard p{background-image:url(/images/bg_price-standard.png);}
+#resume .package.premium p{background-image:url(/images/bg_price-premium.png);}
+#resume .package span{margin-top:30px;display:block;font:24px "CoffeeService",Georgia,"Times New Roman",Times,serif;color:#888;}
+#resume .package span small{margin-left:.3em;vertical-align:super;font-size:75%;font-variant:small-caps;line-height:0;letter-spacing:.1em;}
+#resume .note{margin-top:18px;padding:15px 50px;width:350px;float:left;font:13px/1.5 "Regular",Georgia,"Times New Roman",Times,serif;text-align:center;text-shadow:rgba(255, 255, 255, 0.4) 0 1px 0;background:#e1e1e1;background-color:rgba(0, 0, 0, 0.1);-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+#resume .note.standard{margin-right:20px;}
+#resume #features{margin-top:50px;margin-bottom:36px;zoom:1;}#pricing #features:after{display:block;visibility:hidden;height:0;clear:both;content:".";}
+#resume #features h3{margin-left:10px;height:90px;text-indent:-9999px;background:url(/images/bg_pricing-features.png) no-repeat;}
+#resume #features h4{font-size:30px;color:#ffffff;text-shadow:rgba(0, 0, 0, 0.4) 0 1px 0;}
+#resume #features div.alpha{padding-left:25px;width:210px;}
+#resume #features div.omega{padding-right:10px;width:210px;}
+#pricing #features ul{margin-top:18px;}
+#pricing #features li{padding-left:30px;font-size:14px;text-shadow:rgba(255, 255, 255, 0.4) 0 1px 0;background:url(/images/bg_bullet-check.png) no-repeat;}
+#pricing #add-ons{margin-top:54px;zoom:1;}#pricing #add-ons:after{display:block;visibility:hidden;height:0;clear:both;content:".";}
+#pricing #add-ons h3{margin-left:10px;height:72px;text-indent:-9999px;background:url(/images/bg_pricing-add-ons.png) no-repeat;}
+#pricing #add-ons .add-on{margin:0 10px 18px;padding:40px 20px;width:408px;height:150px;float:left;background:rgba(255, 255, 255, 0.5);border:1px solid #ffffff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;}
+#pricing #add-ons .add-on.donations,#pricing #add-ons .add-on.twitter,#pricing #add-ons .add-on.custom{margin-right:0;}
+#pricing #add-ons .add-on h4{margin:0 20px 18px 0;float:left;font-size:30px;}
+#pricing #add-ons .add-on h5{width:193px;height:32px;float:left;text-indent:-9999px;background:url(/images/sprite_add-ons.png) no-repeat;}
+#pricing #add-ons .add-on.full-color h5{width:180px;background-position:0 0;}
+#pricing #add-ons .add-on.donations h5{background-position:0 -32px;}
+#pricing #add-ons .add-on.galleries h5{background-position:0 -64px;}
+#pricing #add-ons .add-on.twitter h5{background-position:0 -96px;}
+#pricing #add-ons .add-on.e-newsletters h5{background-position:0 -128px;}
+#pricing #add-ons .add-on.custom h5{background-position:0 -160px;}
+#pricing #add-ons .add-on p{clear:left;font-size:13px;}
+#pricing #add-ons .add-on.custom{position:relative;background:rgba(255, 255, 255, 0.8);}
+#pricing #add-ons .add-on.custom h4{float:none;}
+#pricing #add-ons .add-on.custom h5{position:absolute;bottom:30px;}
+#pricing #add-ons .add-on.custom p{width:230px;font-size:11px;}
+#pricing #add-ons .add-on.custom img{position:absolute;top:12px;right:-20px;-webkit-transform:rotate(3deg);-moz-transform:rotate(3deg);-o-transform:rotate(3deg);-ms-transform:rotate(3deg);}
+#portfolio{background-image:url(images/bg.png);}
+#portfolio .container{background:url(images/portfolio.png) 23px 186px no-repeat;}
+#portfolio p.blurb{margin: 25px 0 0 2px;}
+#portfolio .content p.blurb{width:330px;color:#6b2400;text-shadow:rgba(255, 255, 255, 0.3) 0 1px 0;}
+#portfolio #design-slideshow{margin:10px 10px 0;width:1000px;float:left;display:inline;}
+#portfolio #design-slideshow #slideshow-nav{margin-bottom:40px;padding:0px 10px 0px 10px;height:60px;border:1px solid #ad5c33;border-width:1px 0;}
+#portfolio #design-slideshow #slideshow-nav li{margin:10px -60px 0 200px;line-height:1;}
+#portfolio #design-slideshow #slideshow-nav a{padding-left:0px;width:230px;height:15px;display:block;font:28px/1.3 "CoffeeService",Georgia,"Times New Roman",Times,serif;color:#86492b;text-decoration:none;background:url() no-repeat;}
+#portfolio #design-slideshow #slideshow-nav a:hover{color:#ffffff;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0;}
+#portfolio #design-slideshow #slideshow-nav a.activeSlide{color:#ffffff;text-shadow:#000000 0 1px 0;background-position:0 -37px;}
+#portfolio #design-slideshow #slideshow{height:654px;}
+#portfolio #design-slideshow .slide .design{margin:0 75px 45px 0;width:280px;float:left;background-color:#53868B;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);}
+#portfolio #design-slideshow .slide .design.omega{margin-right:0;}
+#portfolio #design-slideshow .slide .design img{padding:5px;display:block;}
+#portfolio #design-slideshow .slide .design h3{margin:0;padding:5px 10px 10px;font-size:30px;}
+#lean_overlay{width:100%;height:100%;display:none;position:fixed;top:0px;left:0px;background:#000;z-index:100;}
+.screenshot-lg{padding:20px;display:none;position:relative;background-color:#126da6;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+.screenshot-lg a{width:36px;height:36px;display:block;position:absolute;top:-15px;right:-15px;text-indent:-9999px;background:url(images/port/btn_close-modal.png) no-repeat;}
+.screenshot-lg img{display:block;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+#facebook{background-image:url(/images/bg_wrapper-facebook.png);}
+#facebook .content h2{margin-right:50px;}
+#facebook .content p.blurb{width:500px;color:#003366;}
+#facebook #screenshot{margin:60px 10px 0;padding-top:27px;width:920px;float:left;display:inline;border-top:1px dashed #ffffff;}
+#facebook #screenshot img{width:463px;float:left;}
+#facebook #screenshot #details{margin-left:498px;}
+#facebook #screenshot #details h3{margin:18px 0;width:422px;height:104px;text-indent:-9999px;background:url(/images/bg_facebook-pricetag.png) no-repeat;}
+#facebook #screenshot #details p{padding-left:47px;font-size:13px;line-height:1.7;color:#ffffff;text-shadow:rgba(0, 0, 0, 0.3) 0 1px 0;}
+#facebook #screenshot #details a{font:24px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;color:#ffffff;}
+#contact{background-image:url(images/bg.png);}
+#contact .container{background:url(images/contact.png) 0px 100px no-repeat;}
+#contact .content h2{margin-right:50px;}
+#contact .content p.blurb{width:330px;color:#006666;}
+#contact #contact-form{margin:60px 10px 0;width:920px;float:left;display:inline;}
+#contact #contact-form form{margin-right:20px;padding:20px 20px 0 20px;width:650px;float:left;background:url(/images/bg_contact-form.png);-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;}
+#contact #contact-form label{margin:0 30px 0 0;width:130px;float:left;display:block;font:24px/1 "SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;text-align:right;text-transform:uppercase;}
+#contact #contact-form input[type="text"]{width:480px;padding:4px 5px;font:13px "Regular",Georgia,"Times New Roman",Times,serif;border:none;color:#0798f3;outline:none;background:transparent;}
+#contact #contact-form input[type="text"]:focus{background-color:#d6eaea;}
+#contact #contact-form .form-item{margin-bottom:20px;zoom:1;}#contact #contact-form .form-item:after{display:block;visibility:hidden;height:0;clear:both;content:".";}
+#contact #contact-form .form-item .field{width:490px;float:left;border-bottom:1px dashed #0798f3;}
+#contact #contact-form .form-item.txtarea{margin:36px -20px;padding-top:36px;background:url() repeat-x;}
+#contact #contact-form .form-item.txtarea label{margin-left:20px;}
+#contact #contact-form .form-item.txtarea .field{border-bottom:none;}
+#contact #contact-form .form-item.txtarea textarea{padding:10px;width:460px;height:100px;font:14px "Regular",Georgia,"Times New Roman",Times,serif;outline:none;border:1px dashed #333333;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;}
+#contact #contact-form .form-item.txtarea textarea:focus{border:1px solid #333333;}
+#contact #contact-form .form-item.btn{height:36px;position:relative;background:url() repeat-x;-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-webkit-background-clip:padding-box;}
+#contact #contact-form .form-item.btn button{width:165px;height:60px;position:absolute;right:20px;display:block;text-indent:-9999px;background:url(images/send.png) no-repeat;border:none;cursor:pointer;filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8;}
+#contact #contact-form .form-item.btn button:hover{filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1;}
+#contact #contact-form span.unhappyMessage{font:11px "Italic",Georgia,"Times New Roman",Times,serif;color:red;}
+#contact #contact-form #contact-success{margin-right:20px;padding:20px 20px 0 20px;width:650px;height:280px;float:left;position:absolute;display:none;background:url();-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);}
+#contact #contact-form #contact-success h3{font:36px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;text-transform:none;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-bottom:1px solid #dbd870;}
+#contact #contact-form #contact-success p{font-size:16px;}
+#contact #contact-form #contact-success p#connect{padding-bottom:110px;background:url(/images/bg_contact-success-connect.png) bottom right no-repeat;}
+#contact aside{margin-left:710px;padding-top:10px;width:220px;}
+#contact aside h3{margin-bottom:16px;font:24px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;color:#0798f3;text-transform:none;border-bottom:1px solid #0798f3;}
+#contact aside p{margin-bottom:27px;font-size:13px;color:#0798f3;}
+#contact aside p strong{width:70px;display:inline-block;font-weight:normal;color:#FFFCFF;}
+#contact aside p em{width:100px;display:inline-block;}
+#contact aside p a{text-decoration:none;color:#FFFCFF;}
+#contact aside p a#connect-facebook,#contact aside p a#connect-twitter,#contact aside p a#connect-linked{width:40px;height:43px;padding-right:10px;display:inline-block;text-indent:-9999px;}
+#contact aside p a#connect-facebook{background:url(images/fb.png) no-repeat;}
+#contact aside p a#connect-twitter{background:url(images/twit.png) no-repeat;}
+#contact aside p a#connect-linked{background:url(images/in.png) no-repeat;}
+#contact aside p a#connect-facebook:hover{background:url(images/fbh.png) no-repeat;}
+#contact aside p a#connect-twitter:hover{background:url(images/twith.png) no-repeat;}
+#contact aside p a#connect-linked:hover{background:url(images/inh.png) no-repeat;}
+#about{background-image:url(/images/bg_wrapper-about.png);background-repeat:repeat-x;background-attachment:scroll;}
+#about .container{padding-bottom:200px;background:url(/images/bg_container-about.png) 390px 165px no-repeat;}
+#about .content h2{margin-right:0;float:none;}
+#about .content p.blurb{margin:0 0 18px 10px;padding:0;width:330px;float:none;color:#033;}
+#about .content p.note{margin:0 0 18px 10px;width:300px;height:90px;display:block;text-indent:-9999px;background:url(/images/bg_about-note.png) no-repeat;}
+#about #good-stuff{margin:60px 10px 0;padding-top:60px;width:920px;float:left;display:inline;}
+#about #good-stuff h3{margin-bottom:27px;}
+#about #good-stuff p,#about #good-stuff ul{font-size:13px;color:#666666;}
+#about #good-stuff aside{width:350px;float:left;}
+#about #good-stuff aside p strong{font-weight:normal;}
+#about #good-stuff aside p+h3{margin-top:36px;}
+#about #good-stuff aside li{margin-bottom:36px;}
+#about #good-stuff aside li img{width:109px;height:109px;float:left;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.4);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.4);box-shadow:0 1px 1px rgba(0, 0, 0, 0.4);}
+#about #good-stuff aside li .bio{margin-left:129px;}
+#about #good-stuff aside li .bio em{font-style:normal;}
+#about #good-stuff #agreement{width:500px;float:right;}
+#about #good-stuff #agreement h4{margin-bottom:18px;}
+#about #good-stuff #agreement li{margin-bottom:20px;padding-left:25px;background:url(/images/bg_bullet.png) 0 4px no-repeat;}
+#intro{background-image:url(images/bg.png);}
+#intro .container{padding-top:430px;padding-bottom:100px; width:850px}
+#intro .content p{font-size:40px;text-align:center;}
+#design-award{position:absolute;right:0;top:0;z-index:1000;}
+#design-award a{width:140px;display:block;height:140px;text-indent:-9999px;background:url(/images/design-award-red.png) no-repeat;}
+@media only screen and (min-width: 768px) and (max-width: 991px){}@media only screen and (max-width: 767px){body{min-width:0;} header#mast,header#mast.short{margin:0;padding:20px 20px 0;width:auto;position:relative;top:0;left:0;z-index:1;background:url(/images/bg.png);} header#mast h1{margin:0;width:181px;height:46px;float:none;} header#mast h1 a{width:181px;height:46px;display:block;text-indent:-9999px;background:url(/images/bg_logo-h1-mobile.png) no-repeat;} #primary-nav{margin-top:9px;width:auto;height:auto;float:none;background:none;} #primary-nav ul{margin:0 0 0 -7px;} #primary-nav li{margin:0;} #primary-nav a{padding:7px;display:block;font:17px/1 "SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;color:#ffffff;text-transform:uppercase;text-decoration:none;text-shadow:rgba(0, 0, 0, 0.3) 0 1px 0;} header#mast p.about{margin:0;width:75px;height:auto;float:none;position:absolute;top:25px;right:32px;background:none;} header#mast p.about a{margin:0;padding:0;font:16px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;text-align:right;text-decoration:none;text-shadow:#ffffff 0 1px 0;} .container{padding:36px 0;} .content{padding:0 20px;} .content h2{margin:0 0 18px 0;float:none;font-size:52px;line-height:1;word-spacing:5px;} .content p.blurb{padding-top:0;width:auto;float:none;} #aboutme .container{padding-top:36px;background:none;} #aboutme .content p.blurb{margin:0 0 18px 0;} #aboutme .content a.note{margin-left:0;font-size:20px;} #how .container{background:none;} #how .content p.blurb{width:auto;} #how #steps{margin-top:0;zoom:1;}#how #steps:after{display:block;visibility:hidden;height:0;clear:both;content:".";} #how .step{margin-bottom:36px;} #how .step h3{padding:0;font-size:30px;} #pricing .container{background:none;} #pricing #packages{margin-top:0;margin-left:0;zoom:1;}#pricing #packages:after{display:block;visibility:hidden;height:0;clear:both;content:".";} #pricing .package{margin-bottom:18px;padding:15px 20px;width:auto;height:auto;float:left;text-align:left;background:#ffffff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);} #pricing .package.standard{margin-right:0;} #pricing .package h3{font-size:30px;float:left;} #pricing .package p{margin:9px 0 18px 0;width:auto;height:auto;float:right;font:26px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;color:#48c1c4;text-align:right;text-indent:0;text-shadow:rgba(0, 0, 0, 0.2) 0 1px 1px;background:none;} #pricing .package.standard p{background:none;} #pricing .package.premium p{background:none;} #pricing .package span{margin-top:0;display:block;float:left;color:#888;} #pricing .note{margin-top:18px;padding:20px;width:auto;float:none;clear:both;font:13px/1.5 Georgia,"Times New Roman",Times,serif;text-align:left;} #pricing .note.standard{margin-right:0;} #pricing #plans{margin:36px 0 0;padding-top:72px;background:url(/images/bg_pricing-plans.png) top center no-repeat;} #pricing #plans #plans-wrapper{padding:5px;} #pricing #plans table{border-collapse:collapse;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;} #pricing #plans table th,#pricing #plans table td{font-size:11px;} #pricing #plans table th.col-1,#pricing #plans table td.col-1,#pricing #plans table th.col-2,#pricing #plans table td.col-2,#pricing #plans table th.col-3,#pricing #plans table td.col-3,#pricing #plans table th.col-4,#pricing #plans table td.col-4{width:auto;} #pricing #plans table th.col-3-4{width:auto;} #pricing #plans table th.packages{font-size:11px;font-weight:normal;} #pricing #plans table th.months{font-size:18px;} #designs .container{background:none;} #designs .content p.blurb{width:auto;} #facebook .content h2{margin-right:0;} #facebook .content p.blurb{width:auto;} #facebook #screenshot{margin:0;padding-top:0;width:auto;float:none;display:block;border-top:none;} #facebook #screenshot img{display:none;} #facebook #screenshot #details{margin-left:0;} #facebook #screenshot #details h3{margin:0 0 18px 0;width:auto;height:auto;text-indent:0;background:none;} #facebook #screenshot #details p{padding-left:0;} #facebook #screenshot #details a{font-size:20px;} #contact .container{padding-bottom:0;background:none;} #contact .content h2{margin-right:0;} #contact .content p.blurb{width:auto;} #contact #contact-form{margin:0;width:auto;float:none;display:block;} #contact #contact-form form{margin-right:0;margin-bottom:36px;padding:10px;width:auto;float:none;background:#ffffff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);} #contact #contact-form label{margin:0 0 5px 0;width:auto;float:none;display:block;text-align:left;} #contact #contact-form input[type="text"]{padding:5px;width:220px;border:1px dashed #333333;background:#ffffff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;} #contact #contact-form input[type="text"]:focus{background-color:#d6eaea;} #contact #contact-form .form-item{margin-bottom:20px;zoom:1;}#contact #contact-form .form-item:after{display:block;visibility:hidden;height:0;clear:both;content:".";} #contact #contact-form .form-item .field{width:auto;float:none;border-bottom:none;} #contact #contact-form .form-item.txtarea{margin:0 0 20px 0;padding-top:0;background:#ffffff;} #contact #contact-form .form-item.txtarea label{margin-left:0;} #contact #contact-form .form-item.txtarea .field{border-bottom:none;} #contact #contact-form .form-item.txtarea textarea{width:220px;} #contact #contact-form .form-item.txtarea textarea:focus{border:1px solid #333333;} #contact #contact-form .form-item.btn{margin:0;padding:0;height:auto;position:relative;background:none;-webkit-border-radius:0 0 0 0;-moz-border-radius:0 0 0 0;border-radius:0 0 0 0;-webkit-background-clip:padding-box;} #contact #contact-form .form-item.btn button{margin:0;padding:0;width:auto;height:auto;position:relative;left:0;display:block;font:30px/1 "SteelfishRegular","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;text-align:right;text-transform:uppercase;text-indent:0;color:#cc6633;background:none;border:none;cursor:pointer;filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1;} #contact #contact-form .form-item.btn button:hover{filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1;} #contact #contact-form span.unhappyMessage{font:11px Georgia,"Times New Roman",Times,serif;color:red;} #contact #contact-form #contact-success{margin-right:20px;padding:20px 20px 0 20px;width:650px;height:280px;float:left;position:absolute;display:none;background:url(/images/bg_wrapper-how.png);-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);box-shadow:0 1px 1px rgba(0, 0, 0, 0.25);} #contact #contact-form #contact-success h3{font:36px/1 "CoffeeService",Georgia,"Times New Roman",Times,serif;text-transform:none;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-bottom:1px solid #dbd870;} #contact #contact-form #contact-success p{font-size:16px;} #contact #contact-form #contact-success p#connect{padding-bottom:110px;background:url(/images/bg_contact-success-connect.png) bottom right no-repeat;} #contact aside{margin-left:0;padding-top:0;width:auto;} #contact aside h3{margin-bottom:9px;font-size:18px;} #contact aside p{margin-bottom:27px;font-size:13px;color:#066;text-shadow:rgba(255, 255, 255, 0.4) 0 1px 0;} #contact aside p strong{width:70px;display:inline-block;font-family:font-weight:normal;color:#066;} #contact aside p em{width:100px;display:inline-block;} #contact aside p a{text-decoration:none;color:#066;} #contact aside p a#connect-facebook,#contact aside p a#connect-twitter{width:22px;height:22px;display:inline-block;text-indent:-9999px;background:url(/images/bg_connect-icons.png) no-repeat;} #contact aside p a#connect-facebook{background-position:0 0;} #contact aside p a#connect-twitter{background-position:-29px 0;} #contact aside p a#connect-facebook:hover{background-position:0 -22px;} #contact aside p a#connect-twitter:hover{background-position:-29px -22px;} #design-award{display:none;}}@media only screen and (min-width: 480px) and (max-width: 767px){}@media only screen and (max-width: 959px){}@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px){}@media only screen and (max-width: 767px) and (max-device-width: 1000px){}@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px){}@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.replace-2x{font-size:1px;} header#mast h1 a{background-image:url(/images/bg_logo-h1-mobile@2x.png);background-size:181px 46px;} #footer .container{background-image:url(/images/bg_container-footer@2x.png);background-size:272px 211px;}}@font-face{font-family:'SteelfishRegular';src:url('/css/fonts/steelfish/steelfish_rg-webfont.eot?') format('eot'),url('/css/fonts/steelfish/steelfish_rg-webfont.woff') format('woff'),url('/css/fonts/steelfish/steelfish_rg-webfont.ttf') format('truetype'),url('/css/fonts/steelfish/steelfish_rg-webfont.svg#webfontJBqSMPPU') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'Regular';src:url('');src:url('') format('embedded-opentype'),url('') format('woff'),url('') format('truetype'),url('') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'Italic';src:url('');src:url('') format('embedded-opentype'),url('/css/fonts/droid/-Italic-webfont.woff') format('woff'),url('/css/fonts/droid/-Italic-webfont.ttf') format('truetype'),url('/css/fonts/droid/-Italic-webfont.svg#Italic') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'Bold';src:url('/css/fonts/droid/-Bold-webfont.eot');src:url('/css/fonts/droid/-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/droid/-Bold-webfont.woff') format('woff'),url('/css/fonts/droid/-Bold-webfont.ttf') format('truetype'),url('/css/fonts/droid/-Bold-webfont.svg#Bold') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'BoldItalic';src:url('/css/fonts/droid/-BoldItalic-webfont.eot');src:url('/css/fonts/droid/-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),url('/css/fonts/droid/-BoldItalic-webfont.woff') format('woff'),url('/css/fonts/droid/-BoldItalic-webfont.ttf') format('truetype'),url('/css/fonts/droid/-BoldItalic-webfont.svg#BoldItalic') format('svg');font-weight:normal;font-style:normal;}@font-face{font-family:'CoffeeService';src:url('css/fonts/coffee/coffee_service-webfont.eot');src:url('css/fonts/coffee/coffee_service-webfont.eot?#iefix') format('embedded-opentype'),url('css/fonts/coffee/coffee_service-webfont.woff') format('woff'),url('css/fonts/coffee/coffee_service-webfont.ttf') format('truetype'),url('css/fonts/coffee/coffee_service-webfont.svg#CoffeeService') format('svg');font-weight:normal;font-style:normal;}.ie7 a#back-to-top,.ie8 a#back-to-top{background-color:#ffffff;}
+.ie7 a#back-to-top:hover,.ie8 a#back-to-top:hover{background-color:#ebebeb;}
+.ie7 .screenshot-lg a,.ie8 .screenshot-lg a{top:-8px;right:-8px;}
+.ie7 #contact aside{width:210px;}
+.ie7 #contact aside p a#connect-facebook,.ie7 #contact aside p a#connect-twitter{display:block;float:left;}
+.ie7 #about #good-stuff aside li .bio p{margin-top:-20px;}
